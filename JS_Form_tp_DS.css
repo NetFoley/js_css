@@ -1,0 +1,62 @@
+body
+{
+	font-family: 'myndraine_regular', Arial, serif;
+}
+
+div
+{
+	background-color:rgb(210,210,255);
+	position : absolute;
+}
+
+td
+{
+	border : 1px solid black;
+}
+
+div p
+{
+	text-align: center;
+}
+
+form
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: solid 2px green;
+	background-color : rgb(210, 255, 220);
+	padding : 5px; 
+}
+
+h2
+{
+	border : 1px black solid; 
+	padding : 2px;
+}
+
+button:hover
+{
+	border : solid 2px black;
+	border-radius : 20px 20px 1px 1px;
+}
+
+#valider
+{
+	background-color: rgb(140,255,130);
+}
+
+#effacer
+{
+	background-color: rgb(255,140,130);
+}
+
+
+@font-face	
+{
+	font-family: 'myndraine_regular';
+	src: url('police/myndraine_regular_macroman/Myndraine-webfont.eot');
+	src: url('police/myndraine_regular_macroman/Myndraine-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('police/myndraine_regular_macroman/Myndraine-webfont.woff') format('woff'),
+		 url('police/myndraine_regular_macroman/Myndraine-webfont.ttf') format('truetype'),
+		 url('police/myndraine_regular_macroman/Myndraine-webfont.svg#myndraine_regular') format('svg');
+}
+
